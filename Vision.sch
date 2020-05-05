@@ -1995,19 +1995,6 @@ Wire Wire Line
 	5300 6350 5625 6350
 Wire Wire Line
 	5300 6200 5300 6350
-Wire Wire Line
-	9300 5750 9400 5750
-Wire Wire Line
-	10275 5750 10275 5525
-Connection ~ 9400 5750
-Wire Wire Line
-	9400 5750 9500 5750
-Connection ~ 9500 5750
-Wire Wire Line
-	9500 5750 9600 5750
-Connection ~ 9600 5750
-Wire Wire Line
-	9600 5750 9700 5750
 $Comp
 L power:+3V3 #PWR02
 U 1 1 5F947EB7
@@ -2021,17 +2008,6 @@ F 3 "" H 10275 5525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 8750 9050 8900
-Connection ~ 9300 8750
-Wire Wire Line
-	9300 8750 9050 8750
-Connection ~ 9400 8750
-Wire Wire Line
-	9400 8750 9300 8750
-Connection ~ 9500 8750
-Wire Wire Line
-	9500 8750 9400 8750
-Wire Wire Line
-	9600 8750 9500 8750
 $Comp
 L power:GND #PWR013
 U 1 1 5F99B131
@@ -2082,67 +2058,51 @@ Text GLabel 10100 8150 2    50   Input ~ 0
 D-
 Text GLabel 10100 8250 2    50   Input ~ 0
 D+
-Text GLabel 10100 7050 2    50   Input ~ 0
+Text GLabel 8800 7450 0    50   Input ~ 0
 COL11
-Text GLabel 10100 7150 2    50   Input ~ 0
+Text GLabel 8800 7550 0    50   Input ~ 0
 COL10
-Text GLabel 10100 7250 2    50   Input ~ 0
+Text GLabel 8800 7650 0    50   Input ~ 0
 COL9
-Text GLabel 10100 7350 2    50   Input ~ 0
+Text GLabel 8800 7750 0    50   Input ~ 0
 COL8
 NoConn ~ 8800 6750
 NoConn ~ 8800 6850
 NoConn ~ 8800 6350
 NoConn ~ 8800 6450
 NoConn ~ 8800 6650
-NoConn ~ 8800 7650
-NoConn ~ 8800 7750
 Text GLabel 10100 8350 2    50   Input ~ 0
 SWDIO
 Text GLabel 10100 8450 2    50   Input ~ 0
 SWCLK
-Text GLabel 10100 7450 2    50   Input ~ 0
+Text GLabel 8800 7850 0    50   Input ~ 0
 COL7
-Text GLabel 10100 7550 2    50   Input ~ 0
+Text GLabel 10100 7350 2    50   Input ~ 0
 COL6
-Text GLabel 10100 7750 2    50   Input ~ 0
+Text GLabel 10100 7450 2    50   Input ~ 0
 COL5
-Text GLabel 8800 7050 0    50   Input ~ 0
+Text GLabel 10100 7550 2    50   Input ~ 0
 COL4
-Text GLabel 8800 7150 0    50   Input ~ 0
+Text GLabel 10100 7650 2    50   Input ~ 0
 COL3
-Text GLabel 8800 7250 0    50   Input ~ 0
+Text GLabel 10100 7750 2    50   Input ~ 0
 COL2
-Text GLabel 8800 8050 0    50   Input ~ 0
+Text GLabel 8800 7050 0    50   Input ~ 0
 COL1
-Text GLabel 10100 8050 2    50   Input ~ 0
+Text GLabel 8800 7150 0    50   Input ~ 0
 COL0
-Text GLabel 10100 8550 2    50   Input ~ 0
+Text GLabel 8800 8250 0    50   Input ~ 0
 ROW0
-Text GLabel 8800 8150 0    50   Input ~ 0
+Text GLabel 8800 7250 0    50   Input ~ 0
 ROW1
-Text GLabel 10100 7850 2    50   Input ~ 0
+Text GLabel 10100 7250 2    50   Input ~ 0
 ROW2
-Text GLabel 10100 7950 2    50   Input ~ 0
+Text GLabel 10100 7150 2    50   Input ~ 0
 ROW3
 Text GLabel 8800 6150 0    50   Input ~ 0
 BOOT0
 Text GLabel 8800 5950 0    50   Input ~ 0
 NRST
-Connection ~ 9700 5750
-Wire Wire Line
-	9700 5750 10275 5750
-$Comp
-L MCU_ST_STM32F0:STM32F072CBTx U2
-U 1 1 5F7B2EAB
-P 9500 7250
-F 0 "U2" H 9450 8928 50  0000 C CNN
-F 1 "STM32F072CBUx" H 9450 8837 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8900 5850 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 9500 7250 50  0001 C CNN
-	1    9500 7250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C12
 U 1 1 5FABDCF6
@@ -2290,10 +2250,10 @@ Wire Wire Line
 	11600 6425 11600 6400
 Connection ~ 11600 6400
 Wire Wire Line
-	11600 6400 12425 6400
+	11600 6400 11850 6400
 Text GLabel 8800 7350 0    50   Input ~ 0
 COL12
-Text GLabel 8800 7450 0    50   Input ~ 0
+Text GLabel 10100 8550 2    50   Input ~ 0
 COL13
 $Comp
 L power:VCC #PWR0101
@@ -2405,6 +2365,87 @@ F 1 "GND" H 11930 8652 50  0000 C CNN
 F 2 "" H 11925 8825 50  0001 C CNN
 F 3 "" H 11925 8825 50  0001 C CNN
 	1    11925 8825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 8750 9500 8750
+Connection ~ 9500 8750
+Wire Wire Line
+	9500 8750 9400 8750
+Connection ~ 9400 8750
+Wire Wire Line
+	9400 8750 9300 8750
+Wire Wire Line
+	9300 8750 9050 8750
+Connection ~ 9300 8750
+$Comp
+L MCU_ST_STM32F0:STM32F072CBTx U2
+U 1 1 5F7B2EAB
+P 9500 7250
+F 0 "U2" H 8850 8850 50  0000 C CNN
+F 1 "STM32F072CBUx" H 8850 8750 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8900 5850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 9500 7250 50  0001 C CNN
+	1    9500 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5750 9700 5750
+Connection ~ 9600 5750
+Wire Wire Line
+	9500 5750 9600 5750
+Connection ~ 9500 5750
+Wire Wire Line
+	9400 5750 9500 5750
+Connection ~ 9400 5750
+Wire Wire Line
+	9300 5750 9400 5750
+Wire Wire Line
+	10275 5750 10275 5525
+Connection ~ 9700 5750
+Wire Wire Line
+	9700 5750 10275 5750
+$Comp
+L Device:C_Small C13
+U 1 1 5EDDDFE6
+P 11850 6525
+F 0 "C13" H 11860 6595 50  0000 L CNN
+F 1 "100nF" H 11860 6445 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11850 6525 50  0001 C CNN
+F 3 "" H 11850 6525 50  0001 C CNN
+	1    11850 6525
+	1    0    0    -1  
+$EndComp
+Connection ~ 11850 6400
+Wire Wire Line
+	11850 6400 12425 6400
+Wire Wire Line
+	11850 6400 11850 6425
+Wire Wire Line
+	11600 6650 11850 6650
+Wire Wire Line
+	11850 6650 11850 6625
+Connection ~ 11600 6650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EB4CCDC
+P 10975 2175
+F 0 "H1" H 11075 2221 50  0000 L CNN
+F 1 "LOGO1" H 11075 2130 50  0000 L CNN
+F 2 "locallib:logo1" H 10975 2175 50  0001 C CNN
+F 3 "~" H 10975 2175 50  0001 C CNN
+	1    10975 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EB4E9B5
+P 11550 2175
+F 0 "H2" H 11650 2221 50  0000 L CNN
+F 1 "LOGO2" H 11650 2130 50  0000 L CNN
+F 2 "locallib:logo2" H 11550 2175 50  0001 C CNN
+F 3 "~" H 11550 2175 50  0001 C CNN
+	1    11550 2175
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,0 +1,14 @@
+(module logo1 (layer F.Cu) (tedit 5EB13E29)
+  (fp_text reference U12 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value hole (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text user VISION (at 0 0) (layer F.Cu)
+    (effects (font (size 4 4) (thickness 0.4)))
+  )
+  (fp_text user VISION (at 0 0) (layer F.Cu)
+    (effects (font (size 4 4) (thickness 0.4)))
+  )
+)
