@@ -2440,12 +2440,155 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5EB4E9B5
-P 11550 2175
-F 0 "H2" H 11650 2221 50  0000 L CNN
-F 1 "LOGO2" H 11650 2130 50  0000 L CNN
-F 2 "locallib:logo2" H 11550 2175 50  0001 C CNN
-F 3 "~" H 11550 2175 50  0001 C CNN
-	1    11550 2175
+P 11650 2175
+F 0 "H2" H 11750 2221 50  0000 L CNN
+F 1 "LOGO2" H 11750 2130 50  0000 L CNN
+F 2 "locallib:logo2" H 11650 2175 50  0001 C CNN
+F 3 "~" H 11650 2175 50  0001 C CNN
+	1    11650 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EB23BAD
+P 10975 2525
+F 0 "H3" H 11075 2571 50  0000 L CNN
+F 1 "FIDUCIAL" H 11075 2480 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask2.25mm" H 10975 2525 50  0001 C CNN
+F 3 "~" H 10975 2525 50  0001 C CNN
+	1    10975 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5EB23BB7
+P 11650 2525
+F 0 "H4" H 11750 2571 50  0000 L CNN
+F 1 "FIDUCIAL" H 11750 2480 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask2.25mm" H 11650 2525 50  0001 C CNN
+F 3 "~" H 11650 2525 50  0001 C CNN
+	1    11650 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5EB31A13
+P 10975 2875
+F 0 "H5" H 11075 2921 50  0000 L CNN
+F 1 "FIDUCIAL" H 11075 2830 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask3mm" H 10975 2875 50  0001 C CNN
+F 3 "~" H 10975 2875 50  0001 C CNN
+	1    10975 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5EB31A1D
+P 11650 2875
+F 0 "H6" H 11750 2921 50  0000 L CNN
+F 1 "FIDUCIAL" H 11750 2830 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask3mm" H 11650 2875 50  0001 C CNN
+F 3 "~" H 11650 2875 50  0001 C CNN
+	1    11650 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5EB68B12
+P 10975 3200
+F 0 "H7" H 11075 3246 50  0000 L CNN
+F 1 "MOUSEBITES" H 11075 3155 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10975 3200 50  0001 C CNN
+F 3 "~" H 10975 3200 50  0001 C CNN
+	1    10975 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5EB68B1C
+P 11650 3200
+F 0 "H8" H 11750 3246 50  0000 L CNN
+F 1 "MOUSEBITES" H 11750 3155 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 11650 3200 50  0001 C CNN
+F 3 "~" H 11650 3200 50  0001 C CNN
+	1    11650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5EB8518B
+P 11650 3500
+F 0 "H10" H 11750 3546 50  0000 L CNN
+F 1 "MOUSEBITES" H 11750 3455 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 11650 3500 50  0001 C CNN
+F 3 "~" H 11650 3500 50  0001 C CNN
+	1    11650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5EB85181
+P 10975 3500
+F 0 "H9" H 11075 3546 50  0000 L CNN
+F 1 "MOUSEBITES" H 11075 3455 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10975 3500 50  0001 C CNN
+F 3 "~" H 10975 3500 50  0001 C CNN
+	1    10975 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5EB9F0B1
+P 10975 3800
+F 0 "H11" H 11075 3846 50  0000 L CNN
+F 1 "MOUSEBITES" H 11075 3755 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10975 3800 50  0001 C CNN
+F 3 "~" H 10975 3800 50  0001 C CNN
+	1    10975 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5EB9F0BB
+P 11650 3800
+F 0 "H12" H 11750 3846 50  0000 L CNN
+F 1 "MOUSEBITES" H 11750 3755 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 11650 3800 50  0001 C CNN
+F 3 "~" H 11650 3800 50  0001 C CNN
+	1    11650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 5EB9F0C5
+P 11650 4100
+F 0 "H14" H 11750 4146 50  0000 L CNN
+F 1 "MOUSEBITES" H 11750 4055 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 11650 4100 50  0001 C CNN
+F 3 "~" H 11650 4100 50  0001 C CNN
+	1    11650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 5EB9F0CF
+P 10975 4100
+F 0 "H13" H 11075 4146 50  0000 L CNN
+F 1 "MOUSEBITES" H 11075 4055 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10975 4100 50  0001 C CNN
+F 3 "~" H 10975 4100 50  0001 C CNN
+	1    10975 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 5EBACADD
+P 10975 4400
+F 0 "H15" H 11075 4446 50  0000 L CNN
+F 1 "MOUSEBITES" H 11075 4355 50  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10975 4400 50  0001 C CNN
+F 3 "~" H 10975 4400 50  0001 C CNN
+	1    10975 4400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
