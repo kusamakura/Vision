@@ -732,17 +732,6 @@ F 3 "" H 5400 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D44
-U 1 1 5D653AA5
-P 5375 4225
-F 0 "D44" H 5325 4305 50  0000 L CNN
-F 1 "1N4148W" H 5275 4400 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" V 5375 4225 50  0001 C CNN
-F 3 "" V 5375 4225 50  0001 C CNN
-	1    5375 4225
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED K_WIN2
 U 1 1 5D7BF4ED
 P 7225 3975
@@ -1493,11 +1482,6 @@ Connection ~ 3575 4325
 Wire Wire Line
 	3575 4325 4775 4325
 Connection ~ 4775 4325
-Wire Wire Line
-	4775 4325 5375 4325
-Connection ~ 5375 4325
-Wire Wire Line
-	5375 4325 5975 4325
 Connection ~ 5975 4325
 Wire Wire Line
 	5975 4325 7175 4325
@@ -1857,17 +1841,6 @@ Wire Wire Line
 	6650 5550 6650 6000
 Text Notes 4125 7875 0    100  ~ 20
 RESET
-$Comp
-L Diode:1N4148 D51
-U 1 1 5F9245F3
-P 5450 8325
-F 0 "D51" H 5450 8109 50  0000 C CNN
-F 1 "1N4148W" H 5450 8200 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 5450 8150 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 8325 50  0001 C CNN
-	1    5450 8325
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5150 8325 5175 8325
 $Comp
@@ -1892,8 +1865,6 @@ F 3 "~" H 6150 8425 50  0001 C CNN
 	1    6150 8425
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5600 8325 5775 8325
 Connection ~ 5775 8325
 Wire Wire Line
 	5775 8325 6150 8325
@@ -1963,8 +1934,6 @@ Wire Wire Line
 Wire Wire Line
 	5175 9100 5300 9100
 Connection ~ 5175 8325
-Wire Wire Line
-	5175 8325 5300 8325
 Wire Notes Line
 	4100 7800 3950 7800
 Wire Notes Line
@@ -2601,4 +2570,35 @@ NoConn ~ 8800 8150
 NoConn ~ 8800 8350
 NoConn ~ 8800 8450
 NoConn ~ 8800 8550
+Connection ~ 5375 4325
+Wire Wire Line
+	5375 4325 5975 4325
+Wire Wire Line
+	4775 4325 5375 4325
+$Comp
+L Device:D_Small D44
+U 1 1 5D653AA5
+P 5375 4225
+F 0 "D44" H 5325 4305 50  0000 L CNN
+F 1 "1N4148W" H 5275 4400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5375 4225 50  0001 C CNN
+F 3 "" V 5375 4225 50  0001 C CNN
+	1    5375 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5EF0D724
+P 5450 8325
+F 0 "D51" H 5400 8405 50  0000 L CNN
+F 1 "1N4148W" H 5350 8500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5450 8325 50  0001 C CNN
+F 3 "" V 5450 8325 50  0001 C CNN
+	1    5450 8325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 8325 5775 8325
+Wire Wire Line
+	5175 8325 5350 8325
 $EndSCHEMATC
