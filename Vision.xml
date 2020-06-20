@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\work\Vision\PCB\Vision.sch</source>
-    <date>06/13/20 15:09:58</date>
+    <date>2020/06/13 17:00:34</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1033,7 +1033,7 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F9245F3</tstamp>
+      <tstamp>5EF0D724</tstamp>
     </comp>
   </components>
   <libparts>
