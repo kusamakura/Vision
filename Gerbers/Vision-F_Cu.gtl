@@ -1,20 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
-<<<<<<< arm
-G04 #@! TF.CreationDate,2020-06-21T21:39:22+09:00*
-=======
-G04 #@! TF.CreationDate,2020-06-21T09:37:45+09:00*
->>>>>>> Add silk for different layouts
+G04 #@! TF.CreationDate,2020-06-21T22:00:15+09:00*
 G04 #@! TF.ProjectId,Vision,56697369-6f6e-42e6-9b69-6361645f7063,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-<<<<<<< arm
-G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-06-21 21:39:22*
-=======
-G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-06-21 09:37:45*
->>>>>>> Add silk for different layouts
+G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-06-21 22:00:15*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
@@ -1499,7 +1491,7 @@ X200400000Y-114300000D02*
 X200400000Y-111100000D01*
 X200400000Y-111100000D02*
 X202100000Y-109400000D01*
-D19*
+D20*
 X204400000Y-152800000D02*
 X204400000Y-173349999D01*
 X208100000Y-113600000D02*
