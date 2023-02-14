@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\work\Vision\PCB\Vision.sch</source>
+    <source>${KIPRJMOD}/Vision.sch</source>
     <date>2020/06/13 17:00:34</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -1350,7 +1350,7 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
     </library>
     <library logical="MX_Alps_Hybrid">
-      <uri>D:\work\Vision\PCB/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib</uri>
+      <uri>${KIPRJMOD}/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib</uri>
     </library>
     <library logical="Mechanical">
       <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
@@ -1365,10 +1365,10 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
     </library>
     <library logical="Type-C">
-      <uri>D:\work\Vision\PCB/Type-C.pretty/Type-C.lib</uri>
+      <uri>${KIPRJMOD}/Type-C.pretty/Type-C.lib</uri>
     </library>
     <library logical="random-keyboard-parts">
-      <uri>D:/work/Vision/PCB/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
+      <uri>${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
     </library>
   </libraries>
   <nets>
