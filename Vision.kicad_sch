@@ -4825,7 +4825,7 @@
     (property "Value" "HRO-TYPE-C-31-M-12" (id 1) (at 31.75 165.1 90)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Type-C:HRO-TYPE-C-31-M-12-Assembly" (id 2) (at 41.91 163.83 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 41.91 163.83 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 41.91 163.83 0)
@@ -7207,7 +7207,7 @@
       (reference "U3") (unit 1) (value "TPD4E05U06DQAR") (footprint "random-keyboard-parts:USON-TPDxE05U06")
     )
     (path "/00000000-0000-0000-0000-00005b361237"
-      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-12") (footprint "Type-C:HRO-TYPE-C-31-M-12-Assembly")
+      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-12") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
   )
 )
