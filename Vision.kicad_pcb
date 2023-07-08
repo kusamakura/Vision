@@ -853,7 +853,7 @@
 
   (footprint "MX_Only:MXOnly-1U-NoLED" (layer "F.Cu")
     (tedit 5BD3C6C7) (tstamp 00000000-0000-0000-0000-00005c559126)
-    (at 299.785001 96.330593)
+    (at 299.660001 96.330593)
     (property "Sheetfile" "Vision.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005ac9d1e8")

@@ -2,6 +2,13 @@
 
 A PCB for the [Vision keyboard by SatT Keyboards](https://github.com/satt99/Vision) with alternative layout options.
 
+## Notable changes
+
+- R2 2U Backspace
+- Left bottom row: from 2U-1U to 1U-2U, add 3U
+- Right bottom row: remove 1U-1.75U, add 2.75U
+- Nudge P position 0.125 mm to the left
+
 ## Layout
 
 ![Layout](./layout.png)
